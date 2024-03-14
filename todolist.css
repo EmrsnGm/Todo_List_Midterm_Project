@@ -1,0 +1,123 @@
+.Display_todolist{
+    border: solid black thin;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    right: 30%;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 20px;
+
+}
+input{
+    margin-bottom: 10px;
+
+}
+
+.task{
+    width: 200px;
+    height: 30px;
+
+}
+input,textarea.description {
+    width: 200px;
+    height: 100px; 
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+textarea.description::placeholder {
+    position: absolute;
+    top: 0%;
+   
+}
+
+
+.Addtask {
+    height: 40px;
+    width: 20%;
+    background-color: #71ca74;
+    border: none; 
+    color: white;
+    padding: 10px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 8px; 
+    transition-duration: 0.4s; 
+  }
+  
+.Addtask:hover {
+    background-color: #45a049;
+    transform: scale(-1.-1)
+  }
+  button:active {
+    transform: scale(0.8);
+  }
+
+  .taskinput{
+    width: 60%;
+  }
+
+  li{
+    border-bottom: thin solid rgb(153, 144, 144);
+  }
+
+ 
+ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  
+  li {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 20px; 
+   
+  }
+  
+
+  h3 {
+    margin-bottom: 5px; 
+    font-size: 18px; 
+    color: #333; 
+  }
+  
+ 
+  p {
+    margin-bottom: 10px; 
+    font-size: 14px; 
+    color: #5c5c5c; 
+  }
+  
+
+
+  .delete {
+    height: 25px;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #fd5d5d; 
+    color: white;
+    border: none; 
+    padding: 5px 5px; 
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  .delete:hover {
+    background-color: #f73b3b; 
+    transform: scale(-1.-1)
+}
